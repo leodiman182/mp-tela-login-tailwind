@@ -10,7 +10,10 @@ function Login() {
         <article className="w-[50%] flex items-center">
           <section className="flex flex-col mx-auto items-center justify-center h-full">
             <h1 className="text-[50px] font-bold text-color-4">
-              Faça seu Login<p className="dot-gradient inline-block">.</p>
+              Faça seu Login
+              <div className="inline-block font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-color-1 via-color-2 to-color-3">
+                .
+              </div>
             </h1>
             <div className="flex flex-col items-right text-right mt-[60px]">
               <Input className="text-left" type="text" placeholder="Email" />
