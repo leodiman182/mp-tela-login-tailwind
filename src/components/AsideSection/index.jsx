@@ -1,6 +1,6 @@
 export default function AsideSection() {
   return (
-    <aside className="text-white bg-white w-[50%] relative">
+    <aside className="text-white bg-white hidden md:inline-block md:md:w-[50%] relative">
       <div className="absolute top-0 right-0 bg-gradient-to-r from-color-6 to-transparent w-full h-full"></div>
       <img
         className="h-full object-cover"

@@ -8,7 +8,7 @@ export default function AlertMessage() {
   }, [alert]);
 
   return (
-    <span className="text-red-500 py-[2px] text-center">
+    <span className="text-red-500 py-[2px] text-center absolute top-10 md:static">
       Por favor, insira o email/senha corretos!
     </span>
   );
