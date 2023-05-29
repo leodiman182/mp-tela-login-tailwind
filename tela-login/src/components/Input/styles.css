@@ -9,5 +9,6 @@ input[type='password'] {
 
 input[type='text']:focus,
 input[type='password']:focus {
-  box-shadow: 0px 0px 20px 2px #6741d0;
+  box-shadow: -10px 0px 20px 4px #6741d0, 0px 8px 15px 1px #c850c0,
+    10px 0px 20px 4px #ffcc70, 0px -8px 15px 1px #c850c0;
 }
