@@ -8,7 +8,7 @@ export default function ArticleSection() {
   const { alert } = useContext(MainContext);
 
   return (
-    <article className="w-full w-[90%] mx-auto md:w-[50%] flex items-center">
+    <article className="w-[90%] mx-auto md:w-[50%] flex items-center">
       <section className="flex flex-col md:mx-auto md:items-center justify-center h-full relative w-full">
         <h1 className="text-[40px] md:text-[50px] font-bold text-color-4">
           Faça seu Login
@@ -16,7 +16,7 @@ export default function ArticleSection() {
             .
           </div>
         </h1>
-        <div className="flex flex-col items-right text-right mt-[35px] md:mt-[60px] px-[8px] md:px-0">
+        <div className="flex flex-col items-right text-right mt-[80px] md:mt-[60px] px-[8px] md:px-0">
           <Input className="text-left" type="text" placeholder="Email" />
           <Input
             type="password"

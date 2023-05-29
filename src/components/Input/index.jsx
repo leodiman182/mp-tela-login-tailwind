@@ -12,9 +12,9 @@ export default function Input({ type, placeholder, className, ...props }) {
       className={'flex flex-col text-[13px] text-color-4 ' + className}
     >
       {placeholder}
-      <div className="mt-[14px] h-[53.25px] w-full md:w-[352px] rounded-[15px] bg-gradient-to-r from-color-1 via-color-2 to-color-3 p-[1px] md:p-[0.8px]">
+      <div className="mt-[12px] h-[54px] w-full md:w-[352px] rounded-[15px] bg-gradient-to-r from-color-1 via-color-2 to-color-3 p-[1px]">
         <input
-          className="h-full w-full rounded-[15px] px-[15px] text-black text-[18px] bg-color-5 focus:outline-2 outline-gradient-to-r from-color-1 via-color-2 to-color-3 back focus:outline-0 text-white"
+          className="h-full w-full rounded-[15px] px-[15px] text-[18px] bg-color-5 outline-gradient-to-r from-color-1 via-color-2 to-color-3 back  text-white"
           {...props}
           value={type === 'password' ? passwordInput : usernameInput}
           onChange={(e) => {
